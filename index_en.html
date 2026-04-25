@@ -1,0 +1,231 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Aura Air | The Future of Clean Air</title>
+    <meta name="description" content="Meet Aura Air, the world's most advanced AI-powered air purifier. Experience pure air with intelligent sensing and futuristic design.">
+    <!-- Google Fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Outfit:wght@400;500;700;800&display=swap" rel="stylesheet">
+    <!-- Styles -->
+    <link rel="stylesheet" href="style.css">
+    <!-- Lucide Icons -->
+    <script src="https://unpkg.com/lucide@latest"></script>
+</head>
+<body>
+
+    <header id="header">
+        <div class="container">
+            <nav>
+                <div class="logo">AURA.AIR</div>
+                
+                <!-- Hamburger Menu -->
+                <input type="checkbox" id="nav-toggle" class="nav-toggle">
+                <label for="nav-toggle" class="nav-toggle-label">
+                    <span></span>
+                </label>
+
+                <ul class="nav-links">
+                    <li><a href="#hero">Home</a></li>
+                    <li><a href="#features">Product</a></li>
+                    <li><a href="#testimonials">Story</a></li>
+                    <li><a href="#contact">Contact</a></li>
+                </ul>
+                <div class="header-right">
+                    <div class="lang-switcher">
+                        <a href="index.html">KR</a>
+                        <span>|</span>
+                        <a href="index_en.html" class="active">EN</a>
+                    </div>
+                    <a href="#contact" class="btn btn-primary btn-nav">Order Now</a>
+                </div>
+            </nav>
+        </div>
+    </header>
+
+    <main>
+        <!-- Hero Section -->
+        <section class="hero" id="hero">
+            <div class="hero-bg-overlay"></div>
+            <div class="container" style="display: flex; align-items: center; gap: 4rem; position: relative; z-index: 2;">
+                <div class="hero-content reveal">
+                    <div class="badge">Next-Gen AI Technology</div>
+                    <h1>Pure Air, <br><span class="gradient-text">Redefined.</span></h1>
+                    <p>Experience the ultimate in home health. Aura Air's intelligent sensing removes 99.99% of toxins, allergens, and viruses while seamlessly blending into your luxury lifestyle.</p>
+                    <div class="hero-btns">
+                        <a href="#features" class="btn btn-primary">Discover Excellence</a>
+                        <a href="#" class="btn btn-outline">Watch the Film</a>
+                    </div>
+                    <div class="hero-stats">
+                        <div class="stat-item">
+                            <span class="stat-value">99.9%</span>
+                            <span class="stat-label">Purification Rate</span>
+                        </div>
+                        <div class="stat-item">
+                            <span class="stat-value">< 20dB</span>
+                            <span class="stat-label">Ultra Silent</span>
+                        </div>
+                    </div>
+                </div>
+                <div class="hero-image reveal">
+                    <div class="image-glow"></div>
+                    <img src="aura_air_hero.png" alt="Aura Air Purifier">
+                </div>
+            </div>
+        </section>
+
+        <!-- Features Section -->
+        <section class="features" id="features">
+            <div class="container">
+                <div class="section-title reveal">
+                    <span class="subtitle">WHY AURA AIR?</span>
+                    <h2>Unrivaled Advantages</h2>
+                    <p style="color: var(--text-secondary);">Engineered for those who refuse to compromise on health and style.</p>
+                </div>
+                <div class="features-grid">
+                    <div class="feature-card glass reveal">
+                        <div class="feature-icon"><i data-lucide="zap"></i></div>
+                        <h3>Instant Response</h3>
+                        <p style="color: var(--text-secondary); margin-top: 1rem;">Detects and neutralizes pollutants in milliseconds before they reach your lungs.</p>
+                    </div>
+                    <div class="feature-card glass reveal">
+                        <div class="feature-icon"><i data-lucide="shield-check"></i></div>
+                        <h3>Medical Grade</h3>
+                        <p style="color: var(--text-secondary); margin-top: 1rem;">Triple-certified HEPA 14 filtration system trusted by professionals worldwide.</p>
+                    </div>
+                    <div class="feature-card glass reveal">
+                        <div class="feature-icon"><i data-lucide="smartphone"></i></div>
+                        <h3>Smart Control</h3>
+                        <p style="color: var(--text-secondary); margin-top: 1rem;">Complete control from anywhere. Monitor AQI and schedule cleaning from your palm.</p>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- Technology Section -->
+        <section class="tech" id="tech" style="background: var(--bg-color);">
+            <div class="container" style="display: flex; align-items: center; gap: 4rem; flex-direction: row-reverse;">
+                <div style="flex: 1;">
+                    <h2 style="font-size: 2.5rem; margin-bottom: 1.5rem;">Intelligence Powered by Aura Core</h2>
+                    <p style="color: var(--text-secondary); font-size: 1.1rem;">The brain of Aura Air is a dedicated AI processor that learns your lifestyle patterns to optimize air cleaning before you even need it.</p>
+                    <div style="margin-top: 2rem; display: flex; gap: 2rem;">
+                        <div>
+                            <div style="font-size: 2rem; font-weight: 800; color: var(--accent-primary);">CADR</div>
+                            <div style="color: var(--text-secondary); font-size: 0.9rem;">600 m³/h</div>
+                        </div>
+                        <div>
+                            <div style="font-size: 2rem; font-weight: 800; color: var(--accent-primary);">ROOMS</div>
+                            <div style="color: var(--text-secondary); font-size: 0.9rem;">Up to 100m²</div>
+                        </div>
+                    </div>
+                </div>
+                <div style="flex: 1;" class="reveal">
+                    <img src="aura_chip.png" alt="Aura AI Core Chip" style="width: 100%; border-radius: 32px; box-shadow: 0 0 40px var(--glow-color);">
+                </div>
+            </div>
+        </section>
+
+        <!-- Testimonial Section -->
+        <section class="testimonials" id="testimonials" style="background: var(--bg-color);">
+            <div class="container">
+                <div class="section-title reveal">
+                    <h2>Customer Stories</h2>
+                    <p style="color: var(--text-secondary);">Join thousands of families enjoying cleaner, fresher homes.</p>
+                </div>
+                <div style="display: flex; justify-content: center;">
+                    <div class="glass reveal" style="padding: 3rem; max-width: 800px; text-align: center; border-color: rgba(124, 58, 237, 0.3);">
+                        <p style="font-size: 1.5rem; font-style: italic; margin-bottom: 2rem;">"Since using Aura Air, my allergy symptoms have improved remarkably. It's not just an appliance; it's a piece of art protecting my family."</p>
+                        <div style="display: flex; align-items: center; justify-content: center; gap: 1rem;">
+                            <div style="width: 50px; height: 50px; background: linear-gradient(135deg, var(--accent-primary), var(--accent-secondary)); border-radius: 50%;"></div>
+                            <div style="text-align: left;">
+                                <div style="font-weight: 700;">James Miller</div>
+                                <div style="color: var(--text-secondary); font-size: 0.9rem;">Interior Designer</div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- Pricing Section -->
+        <section class="pricing" id="pricing">
+            <div class="container">
+                <div class="section-title reveal">
+                    <h2>Choose Your Power</h2>
+                    <p style="color: var(--text-secondary);">Perfect for every room in your home.</p>
+                </div>
+                <div class="features-grid">
+                    <div class="feature-card glass reveal" style="text-align: center;">
+                        <span style="font-weight: 700; color: var(--accent-primary);">AURA MINI</span>
+                        <div style="font-size: 3rem; font-weight: 800; margin: 1.5rem 0;">$299</div>
+                        <ul style="list-style: none; color: var(--text-secondary); margin-bottom: 2.5rem; display: flex; flex-direction: column; gap: 1rem;">
+                            <li>Ideal for Bedrooms</li>
+                            <li>3-layer Filtration</li>
+                            <li>App Control Support</li>
+                        </ul>
+                        <a href="#" class="btn" style="border: 1px solid var(--glass-border); color: white; width: 100%;">Order Mini</a>
+                    </div>
+                    <div class="feature-card glass reveal" style="text-align: center; border-color: var(--accent-primary); position: relative; overflow: hidden;">
+                        <div style="position: absolute; top: 0; left: 0; width: 100%; height: 5px; background: var(--accent-primary);"></div>
+                        <span style="font-weight: 700; color: var(--accent-primary);">AURA PRO</span>
+                        <div style="font-size: 3rem; font-weight: 800; margin: 1.5rem 0;">$599</div>
+                        <ul style="list-style: none; color: var(--text-secondary); margin-bottom: 2.5rem; display: flex; flex-direction: column; gap: 1rem;">
+                            <li>Living & Large Spaces</li>
+                            <li>5-layer AI Filtration</li>
+                            <li>AR Filter View</li>
+                        </ul>
+                        <a href="#" class="btn btn-primary" style="width: 100%;">Order Pro</a>
+                    </div>
+                    <div class="feature-card glass reveal" style="text-align: center;">
+                        <span style="font-weight: 700; color: var(--accent-primary);">AURA MAX</span>
+                        <div style="font-size: 3rem; font-weight: 800; margin: 1.5rem 0;">$899</div>
+                        <ul style="list-style: none; color: var(--text-secondary); margin-bottom: 2.5rem; display: flex; flex-direction: column; gap: 1rem;">
+                            <li>Large Commercial & Office</li>
+                            <li>Dual Core AI</li>
+                            <li>Whole Home Sync</li>
+                        </ul>
+                        <a href="#" class="btn" style="border: 1px solid var(--glass-border); color: white; width: 100%;">Order Max</a>
+                    </div>
+                </div>
+            </div>
+        </section>
+    </main>
+
+    <footer style="padding: 4rem 0; border-top: 1px solid var(--glass-border);">
+        <div class="container">
+            <div style="display: flex; justify-content: space-between; align-items: center;">
+                <div class="logo">AURA.AIR</div>
+                <div style="color: var(--text-secondary); font-size: 0.9rem;">
+                    © 2026 Aura Air Inc. All rights reserved.
+                </div>
+                <div style="display: flex; gap: 1.5rem;">
+                    <a href="#" style="color: var(--text-secondary);"><svg width="24" height="24" viewBox="0 0 24 24" fill="currentColor"><path d="M18.901 1.153h3.68l-8.04 9.19L24 22.846h-7.406l-5.8-7.584-6.638 7.584H.474l8.6-9.83L0 1.154h7.594l5.243 6.932L18.901 1.153zM17.61 20.644h2.039L6.486 3.24H4.298L17.61 20.644z"/></svg></a>
+                    <a href="#" style="color: var(--text-secondary);"><svg width="24" height="24" viewBox="0 0 24 24" fill="currentColor"><path d="M12 2C6.477 2 2 6.484 2 12.017c0 4.425 2.865 8.18 6.839 9.504.5.092.682-.217.682-.483 0-.237-.008-.868-.013-1.703-2.782.605-3.369-1.343-3.369-1.343-.454-1.158-1.11-1.466-1.11-1.466-.908-.62.069-.608.069-.608 1.003.07 1.531 1.032 1.531 1.032.892 1.53 2.341 1.088 2.91.832.092-.647.35-1.088.636-1.338-2.22-.253-4.555-1.113-4.555-4.951 0-1.093.39-1.988 1.029-2.688-.103-.253-.446-1.272.098-2.65 0 0 .84-.27 2.75 1.026A9.564 9.564 0 0112 6.844c.85.004 1.705.115 2.504.337 1.909-1.296 2.747-1.027 2.747-1.027.546 1.379.202 2.398.1 2.651.64.7 1.028 1.595 1.028 2.688 0 3.848-2.339 4.695-4.566 4.943.359.309.678.92.678 1.855 0 1.338-.012 2.419-.012 2.747 0 .268.18.58.688.482A10.019 10.019 0 0022 12.017C22 6.484 17.522 2 12 2z"/></svg></a>
+                    <a href="#" style="color: var(--text-secondary);"><svg width="24" height="24" viewBox="0 0 24 24" fill="currentColor"><path d="M19 0h-14c-2.761 0-5 2.239-5 5v14c0 2.761 2.239 5 5 5h14c2.762 0 5-2.239 5-5v-14c0-2.761-2.238-5-5-5zm-11 19h-3v-11h3v11zm-1.5-12.268c-.966 0-1.75-.79-1.75-1.764s.784-1.764 1.75-1.764 1.75.79 1.75 1.764-.783 1.764-1.75 1.764zm13.5 12.268h-3v-5.604c0-3.368-4-3.113-4 0v5.604h-3v-11h3v1.765c1.396-2.586 7-2.777 7 2.476v6.759z"/></svg></a>
+                </div>
+            </div>
+        </div>
+    </footer>
+
+    <!-- Contact Section -->
+    <section class="contact" id="contact">
+        <div class="container">
+            <div class="glass reveal" style="padding: 4rem; display: flex; flex-direction: column; align-items: center; text-align: center;">
+                <h2 style="font-size: 2.5rem; margin-bottom: 1.5rem;">Join the Aura Community</h2>
+                <p style="color: var(--text-secondary); margin-bottom: 2.5rem; max-width: 600px;">Subscribe for exclusive updates on new home appliance releases and healthy living tips from our AI experts.</p>
+                <form style="display: flex; gap: 1rem; width: 100%; max-width: 500px;">
+                    <input type="email" placeholder="Enter your email" style="flex: 1; padding: 1rem 1.5rem; border-radius: 12px; background: rgba(255, 255, 255, 0.05); border: 1px solid var(--glass-border); color: white; outline: none; transition: var(--transition);" onfocus="this.style.borderColor='var(--accent-primary)'" onblur="this.style.borderColor='var(--glass-border)'">
+                    <button type="submit" class="btn btn-primary">Subscribe Now</button>
+                </form>
+            </div>
+        </div>
+    </section>
+
+    <script src="app.js"></script>
+    <script>
+        lucide.createIcons();
+    </script>
+</body>
+</html>
